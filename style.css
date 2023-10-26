@@ -8,9 +8,24 @@
   font-size: 10px;
 }
 
+body {
+  background-color: rgb(29, 29, 29);
+  font-family: "Sometype Mono", monospace;
+}
+
 .page,
 .wrapper {
   display: grid;
   place-content: center;
   height: 100vh;
+  text-align: center;
+}
+
+h1 {
+  font-family: "Arvo", serif;
+  font-size: 3rem;
+  color: rgb(19, 19, 48);
+  margin-bottom: 5rem;
+  background-color: rgb(202, 196, 245);
+  border-radius: 5rem;
 }
