@@ -25,7 +25,17 @@ h1 {
   font-family: "Arvo", serif;
   font-size: 3rem;
   color: rgb(19, 19, 48);
-  margin-bottom: 5rem;
+
   background-color: rgb(202, 196, 245);
-  border-radius: 5rem;
+  margin-bottom: 2.5rem;
+  border-radius: 2rem;
+}
+
+p {
+  font-size: 1.5rem;
+  color: blanchedalmond;
+}
+
+.mathematicalOperator {
+  width: 15.5rem;
 }
