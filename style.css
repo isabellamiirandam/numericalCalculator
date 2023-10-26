@@ -31,7 +31,8 @@ h1 {
   border-radius: 2rem;
 }
 
-p {
+p,
+label {
   font-size: 1.5rem;
   color: blanchedalmond;
 }
