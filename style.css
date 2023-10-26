@@ -10,6 +10,7 @@
 
 body {
   background-color: rgb(29, 29, 29);
+
   font-family: "Sometype Mono", monospace;
 }
 
@@ -27,8 +28,10 @@ h1 {
   color: rgb(19, 19, 48);
 
   background-color: rgb(202, 196, 245);
+
   margin-bottom: 2.5rem;
   border-radius: 2rem;
+  padding: 1.5rem;
 }
 
 p,
@@ -43,8 +46,41 @@ label {
 
 fieldset {
   border: none;
+
   display: flex;
   flex-direction: column;
   gap: 2rem;
+
   margin: 2rem;
+}
+
+input {
+  border: none;
+
+  border-radius: 2rem;
+
+  width: 20%;
+}
+
+.send {
+  background-color: yellowgreen;
+
+  border: none;
+
+  padding: 1.5rem;
+  border-radius: 1.5rem;
+
+  font-size: 1.5rem;
+  font-family: "Arvo", serif;
+  font-weight: bold;
+  color: rgb(48, 47, 47);
+
+  width: 30%;
+
+  cursor: pointer;
+}
+
+.send:hover {
+  background-color: rgb(76, 108, 12);
+  color: rgb(17, 17, 17);
 }
