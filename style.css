@@ -7,3 +7,10 @@
 :root {
   font-size: 10px;
 }
+
+.page,
+.wrapper {
+  display: grid;
+  place-content: center;
+  height: 100vh;
+}
